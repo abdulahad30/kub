@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.veary{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(16, 129, 129);
+}
+.menu{
+    width: 750px;
+    height: 250px;
+    background-color:white;
+    margin: auto;
+    transform: translateY(150px);
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 0px 22px 0px ;
+    color: rgb(117, 112, 112);
+}
+
+.main{
+    width: 700px;
+    height: 70px;
+    background-color: beige;
+    margin-top: 140px;
+    margin-left: 335px;
+    border-radius: 0px 0px 10px 10px;
+}
+.item{
+    width: 250px;
+    height: 900px;
+    background-color: rgb(17, 112, 112);
+    transform: translateY(-85px) rotate(-20deg);
+    display: flex;
+}
+.poto{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    transform: translateX(120px) translateY(140px) rotate(20deg);
+}
+.h11 h1{
+    width: 400px;
+    height: 36px;
+    transform: translateX(160px) translateY(260px) rotate(20deg);
+    font-size: 40px;
+    font-weight: 300;
+    color: black;
+}
+.fun h1{
+    width: 300px;
+    height: 30px;
+    transform: translateX(-250px) translateY(290px) rotate(20deg);
+    color: aqua;
+    font-weight: 300;
+
+}
+.word h3{
+    width: 400px;
+    height: 30px;
+    transform: translateX(-500px) translateY(50px) rotate(20deg);
+    margin-top: 310px;
+    margin-left: -75px;
+    font-weight: 400;
+    color: gray;
+}
+
+.words h3{
+    width: 400px;
+    height: 30px;
+    transform: translateX(-500px) translateY(75px) rotate(20deg);
+    margin-top: 310px;
+    margin-left: -410px;
+    font-weight: 400;
+    color: gray;
+}
+.icons button{
+    margin-top: 25px;
+    border: none;
+    color: rgb(71, 68, 68);
+}
+.icons i{
+    margin-left: 30px;
+    font-size: 25px;
+}
+.icons{
+    margin-left: 150px;
+    padding-top: 5px;
+    color: rgb(71, 68, 68);
+    
+}

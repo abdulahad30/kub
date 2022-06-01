@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.vary{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient( -20deg, red,rgb(93, 45, 204));
+}
+.box{
+    width: 800px;
+    height: 640px;
+    box-shadow: 0px 5px 20px 5px;
+    background-color: white;
+    transform: translateX(450px) translateY(120px);
+    border-radius: 10px;
+}
+.box img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin-top: -90px;
+    margin-left: 300px;
+    border: 8px solid blueviolet;
+    box-shadow: 2px 0px 20px 5px;
+    color: blueviolet;
+}
+.h11 h2{
+    margin-top: 25px;
+    margin-left: 290px;
+    font-weight: 600;
+    color: blueviolet;
+}
+.h33{
+    margin-top: 15px;
+    margin-left: 200px;
+}
+.item h3{
+    margin-top: 15px;
+    margin-left: 300px;
+}
+.followers{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.post{
+    margin: 0px 60px;
+}
+.post h3{
+    margin-left: 10px;
+    font-size: 25px;
+}
+.icons{
+    margin-top: 80px;
+    margin-left: 60px;
+    font-size: 35px;
+}
+.icons i{
+    margin-left: 50px;
+    
+}
+.fa-facebook{
+    color: blue;
+}
+.fa-twitter{
+    color: dodgerblue;
+}
+.fa-instagram{
+    color: red;
+}
+.fa-behance-square{
+    color: blue;
+}
+.fa-youtube{
+    color: red;
+}
+.fa-telegram{
+    color: rgb(60, 60, 236);
+}
+.fa-link{
+    color: rgb(25, 26, 49);
+}
+.but{
+    margin-top: 50px;
+    margin-left: 110px;
+}
+
+.but button{
+    color: white;
+    font-weight: 700;
+    border: none;
+}
+.button5{
+    width: 150px;
+    height: 40px;
+    margin-left: 100px;
+    border-radius: 20px;
+    background: linear-gradient( -20deg, red,rgb(250, 0, 0));
+
+}
+
+.button4{
+    width: 150px;
+    height: 40px;
+    margin-left: 100px;
+    border-radius: 20px;
+    background: linear-gradient( -20deg,blue,rgb(15, 50, 200));
+
+}
